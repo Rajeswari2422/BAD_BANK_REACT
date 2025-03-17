@@ -1,0 +1,108 @@
+/* Navigation Styles */
+.deposit-nav {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Ensure the navbar spans the full width */
+  position: fixed; /* Fix the navbar at the top */
+  top: 0; /* Position at the top of the page */
+  left: 0; /* Align to the left edge */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+.nav-content {
+  max-width: 1200px;
+  margin: 0 auto; /* Center the nav content */
+  display: flex;
+  justify-content: flex-end; /* Align links to the right */
+  align-items: center; /* Vertically center the links */
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem; /* Space between nav items */
+}
+.navbar-links{
+  margin-right: 30px;
+}
+
+.nav-item {
+  background: none;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-size: 1rem; /* Ensure consistent font size */
+}
+
+.nav-item:hover {
+  background-color: rgba(122, 48, 154, 0.1);
+  transform: translateY(-2px);
+}
+
+.nav-icon {
+  font-size: 1.2rem;
+}
+
+/* Deposit Page Container */
+.deposit-page {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 450px;
+  margin: 500px auto 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Deposit Heading */
+.deposit-page h2 {
+  color: #333;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  letter-spacing: 1px; /* Spaced-out text */
+}
+
+/* Input Styling */
+.deposit-page input {
+  padding: 12px;
+  margin: 10px 0;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 25px; /* Rounded input */
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.deposit-page input:focus {
+  border-color: #007bff; /* Highlight input on focus */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Glow effect */
+}
+
+/* Button Styling */
+.deposit-page button {
+  padding: 12px 24px;
+  background-color: #ab46b6;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Button shadow */
+  margin-top: 20px;
+}
+
+.deposit-page button:hover {
+  background-color: #641163;
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}

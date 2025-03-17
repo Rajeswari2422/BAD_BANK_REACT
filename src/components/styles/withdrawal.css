@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+.navbar-logo {
+  height: 40px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  right:190px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* Existing withdrawal page styles */
+.withdrawal-page {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 450px;
+  margin: 500px auto 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.withdrawal-page h2 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.withdrawal-page input {
+  padding: 12px;
+  margin: 10px 0;
+  width: 80%;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.withdrawal-page button {
+  padding: 12px 24px;
+  background-color: #ab46b6;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.withdrawal-page button:hover {
+  background-color: #641163;
+}

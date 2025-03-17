@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+
+.logo {
+  position: absolute;
+  top: 0;
+  margin-left: 50px;
+  width: 150px;
+  height: 80px;
+  left: 0px;
+  
+ /* Optional: Add some margin for spacing */
+  z-index: 100; /* Ensure logo is above other elements */
+}
+
+.logo:hover {
+  transform: scale(1.1); /* Slightly enlarge logo on hover */
+}
+
+.header h1 {
+  font-size: 32px; /* Larger font size */
+  margin: 0;
+  font-weight: 600; /* Slightly lighter font weight */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
+    text-align: center; /* Center text */
+    padding: 15px 20px; /* Adjust padding for mobile */
+  }
+
+  .logo {
+    margin-bottom: 15px; /* Increase spacing below logo */
+  }
+
+  .header h1 {
+    font-size: 24px; /* Smaller font size for mobile */
+  }
+}

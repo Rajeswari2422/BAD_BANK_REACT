@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #ab358e;
+  color: #fff;
+  padding: 8px 15px; /* Reduced padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px; /* Reduced margin */
+  transition: color 0.3s;
+  font-size: 14px; /* Smaller font size */
+}
+
+.navbar-links a:hover {
+  color: #000000; /* Highlight color on hover */
+}
+
+/* Admin Page Styles */
+.admin-page {
+  padding: 15px; /* Reduced padding */
+}
+
+.content {
+  background-color: #fff;
+  border-radius: 6px; /* Slightly smaller border radius */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px; /* Reduced padding */
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 15px; /* Reduced margin */
+  font-size: 18px; /* Smaller font size */
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px; /* Reduced margin */
+}
+
+th, td {
+  padding: 8px; /* Reduced padding */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px; /* Smaller font size */
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #f9f9f9; /* Highlight row on hover */
+}
+
+/* Button Styles */
+button {
+  background-color: #db34b1; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 4px; /* Smaller border radius */
+  padding: 8px 12px; /* Reduced padding */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 14px; /* Smaller font size */
+}
+
+button:hover {
+  background-color: #713a64; /* Darker shade on hover */
+}
+
+/* Error Message Styles */
+.error {
+  color: red;
+  margin-top: 8px; /* Reduced margin */
+  font-size: 12px; /* Smaller font size */
+}

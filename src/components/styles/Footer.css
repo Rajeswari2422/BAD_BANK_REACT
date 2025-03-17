@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    text-align: center;
+    right: 0px;
+    padding: 20px;
+    position: fixed; /* Make the footer fixed */
+    width: 100%; /* Ensure the footer spans the full width */
+    bottom: 0; /* Position it at the bottom */
+    background-color: #f8f8f8; /* Background color (optional) */
+    color: #333; /* Text color (optional) */
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  

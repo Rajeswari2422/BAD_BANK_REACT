@@ -1,0 +1,85 @@
+.navbar {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center;
+  background-color: #c0338c;
+  padding: 10px 20px;
+}
+
+.navbar-logo {
+  height: 50px;
+  margin-right: 20px; /* Add some space between the logo and the links */
+}
+
+.navbar-links {
+  display: flex;
+  gap: 15px;
+  font-style: italic;
+  margin-left: 1100px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  right: 30px;
+}
+
+.navbar-links a:hover {
+  color: #ddd;
+}
+
+.transaction-history-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table td {
+  font-size: 16px;
+  color: #333;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666;
+}
